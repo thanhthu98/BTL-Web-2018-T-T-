@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>T&T Makeup</title>
+    <link rel="shortcut icon" type="assets/img/tt.png" href="assets/img/tt.png"/>
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"> -->
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab:300,400|Roboto:300,400,700">
+    <link rel="stylesheet" href="assets/css/sticky-dark-top-nav-with-dropdown.css">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="assets/css/Article-List.css">
+    <link rel="stylesheet" href="assets/css/Footer-Dark.css">
+    <link rel="stylesheet" href="assets/css/Projects-Horizontal.css">
+    <link rel="stylesheet" href="assets/css/Team-Clean.css">
+    <link rel="stylesheet" href="assets/css/demo.css">
+</head>
+<body>
+    <!-- Thanh điều hướng -->
+    <div class="me-header fixed-top">
+        <nav class="navbar navbar-light navbar-expand-md navbar-fixed-top navigation-clean-button me-nav ">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <span>
+                        <img src="assets/img/tt.png" style="width:50px; height: auto;"><img src="assets/img/makeup1.png" style="width:150px;height: auto">
+                    </span>
+                </a>
+                <!-- Toggle navigation -->
+                <button class="navbar-toggler" data-toggle="collapse" data-target="#navcol-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navcol-1">
+                    <ul class="nav navbar-nav nav-right">
+                        <!-- Trang chủ -->
+                        <li class="nav-item" role="presentation"><a class="nav-link active" href="trang_chu.html">TRANG CHỦ </a></li>
+                        <!-- Giới thiệu -->
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link" href="trang_gioi_thieu.html">GIỚI THIỆU </a>
+                        </li>
+                        <!--dropdown-->
+                        <li class="dropdown">
+                            <a class="dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="false" href="#">KHÓA HỌC </a>
+                            <div class="dropdown-menu" role="menu">
+                                <a class="dropdown-item" role="presentation" href="trang_hoc_online.html">Học Online</a>
+                                <a class="dropdown-item" role="presentation" href="trang_hoc_offline.html">Học Offline</a>
+                            </div>
+                        </li>
+                        <!--Khuyến mãi-->
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link" href="trang_khuyen_mai.html">KHUYẾN MẠI </a>
+                        </li>
+                        <!--Liên hệ-->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">LIÊN HỆ
+                            </a>
+                            <div class="dropdown-menu">
+                              <a class="dropdown-item" href="trang_lien_he.html">Thông Tin</a>
+                              <a class="dropdown-item" href="trang_thanh_toan.html">Thanh Toán</a>
+                            </div>
+                        </li>
+                    </ul>
+                    <!--Đăng ký - Đăng nhập-->
+                    <p class="ml-auto navbar-text actions">
+                        <a href="#" class="btn btn-light" role="button" id="btnDangNhap"><i class="fa fa-user"></i>Đăng Nhập</a>
+                        <a class="btn btn-light" role="button" href="#" id="btnDangKy"><i class="fa fa-sign-in"></i>Đăng Ký</a>
+                    </p>
+                </div>
+            </div>
+        </nav>  
+    </div>
+    
+    <!--Menu dọc-->
+    <div class="menu1">
+        <div class="Left-Content fixed-top">
+            <div class="Sidenav-left">
+                <div id="mySidenav" class="sidenav">
+                    <a href="#" id="hocphi">Học phí
+                        <span class="fa fa-usd "  aria-hidden="true" ></span>
+                    </a>
+                    <a href="#" id="email">Email: thuntt62@wru.vn
+                        <span class="fa fa-envelope-o" aria-hidden="true"></span>
+                    </a>
+                    <a href="#" id="diachi">Địa chỉ: 19 Trường Chinh - Hà Nội
+                        <span class="fa fa-map-marker" aria-hidden="true"></span>
+                    </a>
+                    <a href="#" id="sdt">Điện thoại: 0974715684
+                        <span class="fa fa-phone" aria-hidden="true"></span>
+                    </a>
+                    <a href="#" id="fb">Facebook: facebook.com/thanh.thu.18298
+                        <span class="fa fa-facebook" aria-hidden="true"></span>
+                    </a>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Slide Show-->   
+    <div id="demo" class="carousel slide" data-ride="carousel">
+        <ul class="carousel-indicators">
+        <li data-target="#demo" data-slide-to="0" class="active"></li>
+        <li data-target="#demo" data-slide-to="1"></li>
+        <li data-target="#demo" data-slide-to="2"></li>
+        <li data-target="#demo" data-slide-to="3"></li>
+        </ul>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="assets/img/1.jpg" alt="Los Angeles" width="1100" height="500">
+                <div class="carousel-caption">
+                <h3>Los Angeles</h3>
+                <p>We had such a great time in LA!</p>
+                </div>   
+            </div>
+            <div class="carousel-item">
+                <img src="assets/img/4.jpg" alt="Chicago" width="1100" height="500">
+                <div class="carousel-caption">
+                <h3>Chicago</h3>
+                <p>Thank you, Chicago!</p>
+                </div>   
+            </div>
+            <div class="carousel-item">
+                <img src="assets/img/2.jpg" alt="New York" width="1100" height="500">
+                <div class="carousel-caption">
+                <h3>New York</h3>
+                <p>We love the Big Apple!</p>
+                </div>   
+            </div>
+            <div class="carousel-item">
+                <img src="assets/img/3.jpg" alt="New York" width="1100" height="500">
+                <div class="carousel-caption">
+                <h3>New York</h3>
+                <p>We love the Big Apple!</p>
+                </div>   
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+        </a>
+    </div>
+
+    <!--Nội dung chính-->
+    <div class="me-body" style="background-color:white">
+        <!-- Note -->
+        <div class="row rownote" style="background-color:#fefbbf">
+            <div class="col" style="margin-top:40px;">
+                <h4 style="text-align: center">LÀ CON GÁI PHẢI XINH!</h4>
+                <div class="container-1">
+                    <p>Ở thế hệ 8x trở về trước hai chữ “trang điểm” thật sự không mấy quen thuộc. Thường người ta hay vu vơ tự hỏi “sao bây giờ bọn trẻ hay thích trang điểm nhỉ?”. Dần dần cho đến hiện tại hai chữ “trang điểm” được trải rộng ra cho hầu hết tất cả mọi lứa tuổi già, trung niên, thanh niên hay vị thành niên. Thậm chí không chỉ phụ nữ mà cả nam giới cũng “trang điểm”.
+                    Vậy thì tại sao phải cần trang điểm? Và nhất là phái đẹp ? Phải chăng vì trang điểm sẽ giúp phụ nữ đẹp hơn và tự tin hơn khi sống trong một xã hội ngày càng hiện đại và tiến bộ này. Ngoài tính năng “đẹp” và “tự tin”, trang điểm còn có những ưu điểm và công dụng khác nữa đấy.</p>
+                </div>
+            </div>
+        </div>
+        <!--Điểm qua 1 số ND chính-->
+        <!--Khóa học-->
+        <div class="projects-horizontal">
+            <div class="container" >
+                <div class="intro">
+                    <h2 class="text-center" style="margin-top:50px">KHÓA HỌC</h2>
+                    <p class="text-center">Làm đẹp cho người, làm đẹp cho đời!</p>
+                </div>
+                <div class="row projects" >
+                    <div class="col-sm-6 item">
+                        <div class="row row1">
+                            <div class="col-md-12 col-lg-5"><a href="#"><img class="img-fluid" src="assets/img/desk.jpg" /></a></div>
+                            <div class="col">
+                                <h3 class="name">Project Name</h3>
+                                <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 item">
+                        <div class="row row1">
+                            <div class="col-md-12 col-lg-5"><a href="#"><img class="img-fluid" src="assets/img/building.jpg" /></a></div>
+                            <div class="col">
+                                <h3 class="name">Project Name</h3>
+                                <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 item">
+                        <div class="row row1">
+                            <div class="col-md-12 col-lg-5"><a href="#"><img class="img-fluid" src="assets/img/desk.jpg" /></a></div>
+                            <div class="col">
+                                <h3 class="name">Project Name</h3>
+                                <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 item">
+                        <div class="row row1">
+                            <div class="col-md-12 col-lg-5"><a href="#"><img class="img-fluid" src="assets/img/building.jpg" /></a></div>
+                            <div class="col">
+                                <h3 class="name">Project Name</h3>
+                                <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container xemthem" style="margin-top:30px;">
+                <button class="btn btn-primary" type="button">XEM THÊM</button>
+        </div>
+        <!--Khuyến mại-->
+        <div class="article-list" style="margin-top:50px">
+            <div class="container">
+                <div class="intro">
+                    <h2 class="text-center">KHUYẾN MẠI</h2>
+                    <p class="text-center">Luôn luôn tươi xinh</p>
+                </div>
+                <div class="row articles" style="margin-top:40px">
+                    <div class="col-sm-6 col-md-3 item item1" style="margin-left:100px">
+                        <a href="#"><img class="img-fluid" src="assets/img/1.jpg" /></a>
+                        <h3 class="name">Article Title</h3>
+                        <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, interdum justo suscipit id.</p>
+                        <a href="#" class="action"><i class="fa fa-arrow-circle-right"></i></a>
+                    </div>
+                    <div class="col-sm-6 col-md-3 item item1">
+                        <a href="#"><img class="img-fluid" src="assets/img/2.jpg" /></a>
+                        <h3 class="name">Article Title</h3>
+                        <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, interdum justo suscipit id.</p>
+                        <a href="#" class="action"><i class="fa fa-arrow-circle-right"></i></a>
+                    </div>
+                    <div class="col-sm-6 col-md-3 item item1" style="margin-right:100px">
+                        <a href="#"><img class="img-fluid" src="assets/img/3.jpg" /></a>
+                        <h3 class="name">Article Title</h3>
+                        <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida qlajsj hlagd kssaaaa aaaa aa aaaaa aaa aaa aaaa aaa aaa aaa bbbd ấ ee gghe efaasad 44444 aadd gfwsx </p>
+                        <a href="#" class="action"><i class="fa fa-arrow-circle-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container xemthem">
+            <button class="btn btn-primary" type="button">XEM THÊM</button>
+        </div>
+        <!--Giới thiệu-->
+        <div class="team-clean" style="margin-top:50px">
+                <div class="container">
+                    <div class="intro">
+                        <h2 class="text-center">GIỚI THIỆU</h2>
+                        <p class="text-center">Nunc luctus in metus eget fringilla. Aliquam sed justo ligula. Vestibulum nibh erat, pellentesque ut laoreet vitae.</p>
+                    </div>
+                    <div class="row people" style="margin-top:40px">
+                        <div class="col-md-6 col-lg-3 item item2" style="margin-left:100px">
+                            <img class="rounded-circle" src="assets/img/building.jpg" />
+                            <h3 class="name">Ben Johnson</h3>
+                            <p class="title">Musician</p>
+                            <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, et interdum justo suscipit id. Etiam dictum feugiat tellus, a semper massa.</p>
+                        </div>
+                        <div class="col-md-6 col-lg-3 item item2">
+                            <img class="rounded-circle" src="assets/img/desk.jpg" />
+                            <h3 class="name">Emily Clark</h3>
+                            <p class="title">Artist</p>
+                            <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, et interdum justo suscipit id. Etiam dictum feugiat tellus, a semper massa.</p>
+                        </div>
+                        <div class="col-md-6 col-lg-3 item item2" style="margin-right:100px">
+                            <img class="rounded-circle" src="assets/img/building.jpg" />
+                            <h3 class="name">Carl Kent</h3>
+                            <p class="title">Stylist</p>
+                            <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, et interdum justo suscipit id. Etiam dictum feugiat tellus, a semper massa.</p>
+                        </div>
+                    </div>
+                </div>
+        </div>
+        <div class="container xemthem" style="margin-bottom:100px">
+                <button class="btn btn-primary" type="button">XEM THÊM</button>
+            </div>
+    </div>
+
+    <!--Footer-->
+    <div>
+    </div>
+    <div class="me-footer">
+        <div class="footer-dark">
+            <div class="me-footer-icon">
+                <img src="assets/img/tt.png">
+            </div>
+            <small class="form-text text-muted">Made with&nbsp;
+                <i class="fa fa-heart" style="color:#df4c40"></i>&nbsp;by T&amp;T
+            </small>
+            <footer>
+                <div class="container">
+                    <div class="row">
+                        <div class="col item social">
+                            <a href="#" style="background-color:#4267b2">
+                                <i class="icon ion-social-facebook" ></i>
+                            </a></div>
+                    </div>
+                    <p class="copyright" ><br>T&amp;T Makeup © 2018</p>
+                </div>
+            </footer>
+        </div>
+    </div>
+
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>

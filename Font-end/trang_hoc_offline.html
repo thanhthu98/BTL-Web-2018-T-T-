@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Học Offline</title>
+    <link rel="shortcut icon" type="assets/img/tt.png" href="assets/img/tt.png"/>
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"> -->
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab:300,400|Roboto:300,400,700">
+    <link rel="stylesheet" href="assets/css/sticky-dark-top-nav-with-dropdown.css">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="assets/css/Article-List.css">
+    <link rel="stylesheet" href="assets/css/Footer-Dark.css">
+    <link rel="stylesheet" href="assets/css/demo.css">
+</head>
+<body>
+    <!-- Thanh điều hướng -->
+    <div class="me-header fixed-top">
+        <nav class="navbar navbar-light navbar-expand-md navbar-fixed-top navigation-clean-button me-nav ">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <span>
+                        <img src="assets/img/tt.png" style="width:50px; height: auto;"><img src="assets/img/makeup1.png" style="width:150px;height: auto">
+                    </span>
+                </a>
+                <!-- Toggle navigation -->
+                <button class="navbar-toggler" data-toggle="collapse" data-target="#navcol-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navcol-1">
+                    <ul class="nav navbar-nav nav-right">
+                        <!-- Trang chủ -->
+                        <li class="nav-item" role="presentation"><a class="nav-link active" href="trang_chu.html">TRANG CHỦ </a></li>
+                        <!-- Giới thiệu -->
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link" href="trang_gioi_thieu.html">GIỚI THIỆU </a>
+                        </li>
+                        <!--dropdown-->
+                        <li class="dropdown">
+                            <a class="dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="false" href="#">KHÓA HỌC </a>
+                            <div class="dropdown-menu" role="menu">
+                                <a class="dropdown-item" role="presentation" href="trang_hoc_online.html">Học Online</a>
+                                <a class="dropdown-item" role="presentation" href="trang_hoc_offline.html">Học Offline</a>
+                            </div>
+                        </li>
+                        <!--Khuyến mãi-->
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link" href="trang_khuyen_mai.html">KHUYẾN MẠI </a>
+                        </li>
+                        <!--Liên hệ-->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">LIÊN HỆ
+                            </a>
+                            <div class="dropdown-menu">
+                              <a class="dropdown-item" href="trang_lien_he.html">Thông Tin</a>
+                              <a class="dropdown-item" href="trang_thanh_toan.html">Thanh Toán</a>
+                            </div>
+                        </li>
+                    </ul>
+                    <!--Đăng ký - Đăng nhập-->
+                    <p class="ml-auto navbar-text actions">
+                        <a href="#" class="btn btn-light" role="button" id="btnDangNhap"><i class="fa fa-user"></i>Đăng Nhập</a>
+                        <a class="btn btn-light" role="button" href="#" id="btnDangKy"><i class="fa fa-sign-in"></i>Đăng Ký</a>
+                    </p>
+                </div>
+            </div>
+        </nav>  
+    </div>
+    <!--Đường dẫn-->
+    <div class="container path" >
+        <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="#" style="color:#df4c40"><strong>Trang chủ</strong></a></li>
+        <li class="breadcrumb-item"><a href="#" style="color:#df4c40"><strong>Khóa học</strong></a></li>
+        <li class="breadcrumb-item"><a><span>Học Offline</span></a></li>
+        </ol>
+    </div>
+    <!--Menu dọc-->
+    <div class="menu">
+        <div class="Left-Content fixed-top">
+            <div class="Sidenav-left">
+                <div id="mySidenav" class="sidenav">
+                    <a href="#" id="hocphi">Học phí
+                        <span class="fa fa-usd "  aria-hidden="true" ></span>
+                    </a>
+                    <a href="#" id="email">Email: thuntt62@wru.vn
+                        <span class="fa fa-envelope-o" aria-hidden="true"></span>
+                    </a>
+                    <a href="#" id="diachi">Địa chỉ: 19 Trường Chinh - Hà Nội
+                        <span class="fa fa-map-marker" aria-hidden="true"></span>
+                    </a>
+                    <a href="#" id="sdt">Điện thoại: 0974715684
+                        <span class="fa fa-phone" aria-hidden="true"></span>
+                    </a>
+                    <a href="#" id="fb">Facebook: facebook.com/thanh.thu.18298
+                        <span class="fa fa-facebook" aria-hidden="true"></span>
+                    </a>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Nội dung chính-->
+    <div class="me-body"> 
+        <div class="container">
+            <div class="row">
+            <!--Nội dung giới thiệu-->
+            <div class="col-sm-8" style="background-color:white;">
+                <div class="container">
+                    <!-- Nav tabs -->
+                    <ul class="nav nav-tabs nav-pills nav-justified" role="tablist" style="margin-top:10px;">
+                      <li class="nav-item">
+                        <a class="nav-link active" data-toggle="tab" href="#coban">Cơ bản</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" data-toggle="tab" href="#nangcao">Nâng cao</a>
+                      </li>
+                      
+                    </ul>
+                  
+                    <!-- Tab panes -->
+                    <div class="tab-content">
+                      <div id="coban" class="container tab-pane active"><br>
+                        <h2>Khóa học Makeup Offline Cơ bản</h2>
+                        <p>Đây là nội dụng Cơ bản</p>
+                      </div>
+                      <div id="nangcao" class="container tab-pane fade"><br>
+                        <h2>Khóa học Makeup Offline Nâng cao</h2>
+                        <p>Đây là nội dung nâng cao</p>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+            <!--Đường dẫn tắt-->
+            <div class="col-sm-4" style="background-color:white;">
+                <body>
+                    <!--Tìm kiếm-->
+                    <div class="card">
+                        <div class="card-header card0">
+                            <h5 class="mb-0">Tìm kiếm</h5>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">
+                                <form>
+                                    <div class="input-group">
+                                        <input type="text" class="form-control" placeholder="Nhập vào đây!">
+                                        <div class="input-group-btn">
+                                        <button class="btn btn-default" type="submit">
+                                            <i class="fa fa-search"></i>
+                                        </button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </p>
+                        </div>
+                    </div>
+                    <!--Giới thiệu-->
+                    <div class="card">
+                        <div class="card-header card1">
+                            <h5 class="mb-0">Giới thiệu</h5>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">
+                                <div class="media"><a href="#"><img class="imgmini" src="assets/img/building.jpg" class="mr-3" /></a>
+                                    <div class="media-body">
+                                        <a href="#"><strong>Học Viện Dạy Làm Đẹp Quốc Tế Winnie Beauty Academy</strong></a>
+                                    </div>
+                                </div>
+                                <div class="media"><a href="#"><img class="imgmini" src="assets/img/building.jpg" class="mr-3" /></a>
+                                    <div class="media-body">
+                                        <a href="#"><strong>Những cột đáng nhớ trong hành trình phát triển của Winnie Academy</strong></a>
+                                    </div>
+                                </div>
+                                <div class="media"><a href="#"><img class="imgmini" src="assets/img/building.jpg" class="mr-3" /></a>
+                                    <div class="media-body">
+                                        <a href="#"><strong>Những cột đáng nhớ trong hành trình phát triển của Winnie Academy</strong></a>
+                                    </div>
+                                </div>               
+                            </p>
+                        </div>
+                    </div>
+                    <!--Khóa học-->
+                    <div class="card">
+                        <div class="card-header card2">
+                            <h5 class="mb-0">Khóa học</h5>
+                        </div>
+                        <div class="card-body">
+                            <div class="media"><a href="#"><img class="imgmini" src="assets/img/building.jpg" class="mr-3" /></a>
+                                <div class="media-body">
+                                    <a href="#"><strong>Những cột đáng nhớ trong hành trình phát triển của Winnie Academy</strong></a>
+                                </div>
+                            </div>
+                            <div class="media"><a href="#"><img class="imgmini" src="assets/img/building.jpg" class="mr-3" /></a>
+                                <div class="media-body">
+                                    <a href="#"><strong>Những cột đáng nhớ trong hành trình phát triển của Winnie Academy</strong></a>
+                                </div>
+                            </div>
+                            <div class="media"><a href="#"><img class="imgmini" src="assets/img/building.jpg" class="mr-3" /></a>
+                                <div class="media-body">
+                                    <a href="#"><strong>Những cột đáng nhớ trong hành trình phát triển của Winnie Academy</strong></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </body> 
+            </div>
+            </div>
+        </div> 
+    </div>
+    <!--Footer-->
+    <div class="me-footer">
+        <div class="footer-dark">
+            <div class="me-footer-icon">
+                <img src="assets/img/tt.png">
+            </div>
+            <small class="form-text text-muted">Made with&nbsp;
+                <i class="fa fa-heart" style="color:#df4c40"></i>&nbsp;by T&amp;T
+            </small>
+            <footer>
+                <div class="container">
+                    <div class="row">
+                        <div class="col item social">
+                            <a href="#" style="background-color:#4267b2">
+                                <i class="icon ion-social-facebook" ></i>
+                            </a></div>
+                    </div>
+                    <p class="copyright" ><br>T&amp;T Makeup © 2018</p>
+                </div>
+            </footer>
+        </div>
+    </div>
+
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>
